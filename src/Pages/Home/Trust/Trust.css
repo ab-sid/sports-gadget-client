@@ -1,0 +1,18 @@
+.trust-heading span {
+    position: relative;
+}
+
+.trust-heading span::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid gray;
+    margin-left: 2px;
+    /* add some spacing between the text and line */
+    vertical-align: middle;
+    /* align the line with the text vertically */
+    width: 250px;
+}
+
+.shop-now:hover {
+    color: black;
+}

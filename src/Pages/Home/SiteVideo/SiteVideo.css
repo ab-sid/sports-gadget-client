@@ -1,0 +1,37 @@
+.bg-img {
+    background-image: url('../../../assets/trust/video-bg-new.jpg');
+    background-size: cover;
+    height: 338px;
+    width: 100%;
+    position: center center;
+}
+
+.first-part {
+    margin-left: 75px;
+}
+
+.first-part h3 {
+    font-family: monserrat;
+}
+
+.first-part h3::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid white;
+    margin-left: 2px;
+    /* add some spacing between the text and line */
+    vertical-align: middle;
+    /* align the line with the text vertically */
+    width: 150px;
+}
+
+.second-part h3::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 2px solid #ca020b;
+    margin-left: 12px;
+    /* add some spacing between the text and line */
+    vertical-align: middle;
+    /* align the line with the text vertically */
+    width: 150px;
+}
